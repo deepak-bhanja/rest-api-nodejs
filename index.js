@@ -3,7 +3,7 @@ const res = require('express/lib/response');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello');
+    res.send('Hello Jenkin');
 });
 
 app.get('/products', (req, res) => {
